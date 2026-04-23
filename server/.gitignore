@@ -1,0 +1,34 @@
+# ── Dependencias ──
+node_modules/
+
+# ── Variables de entorno ──
+# .env
+# .env.local
+# .env.*.local
+
+# ── Build ──
+dist/
+build/
+
+# ── Logs ──
+*.log
+npm-debug.log*
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── TypeScript ──
+*.tsbuildinfo
+
+# ── Misc ──
+coverage/
+.cache/
